@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: ninox
+    database: ninox-490014  
+    schema: case_data 
+    tables:
+      - name: orders
+      - name: subscriptions
+      - name: users
